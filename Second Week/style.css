@@ -25,6 +25,7 @@ a {
   transform: scale(1.1);
 }
 
+<<<<<<< HEAD
 .bt2 {
   background-color: #1b77fb;
   width: 220px;
@@ -61,4 +62,14 @@ a {
 .container1 {
   display: flex;
   align-items: center;
+=======
+  .last{
+    padding:0px;
+    margin: 0px;
+  }
+.google{
+  width:15px;
+  height:auto; 
+  padding-top: .5px;
+>>>>>>> 5fd0d46c3bd2cce95b832d829b62aa7bd1649820
 }

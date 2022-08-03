@@ -52,3 +52,38 @@ hr {
   border-style: inset;
   border-width: 1px;
 }
+<<<<<<< HEAD
+=======
+.bt2{
+    background-color:#1B77FB;
+    width: 220px;;
+    border-radius: 25px;
+    padding:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+ .bt2:hover{
+    background-color:#3485F9;
+    transform:scale(1.2);
+    } 
+ .form-label{
+        padding-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          }
+.input{
+        padding: 7px;
+         width:200px;
+        }
+.last{
+    padding:0px;
+    margin: 0px;
+  }
+  hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }      
+>>>>>>> 5fd0d46c3bd2cce95b832d829b62aa7bd1649820
