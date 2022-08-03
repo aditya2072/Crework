@@ -1,55 +1,54 @@
-h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.log{
-    display:grid;
-    place-items: center;
-  }
-  .input-grid{
-    display: grid;
+.log {
+  display: grid;
+  place-items: center;
 }
-.bt1{
-    background-color: white;
-    width:220px;
-    border-radius: 25px;
-    padding:10px;
-    margin-bottom: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-  }
-  .bt1:hover{
-    transform: scale(1.1);
+.input-grid {
+  display: grid;
 }
-.bt2{
-    background-color:#1B77FB;
-    width: 220px;;
-    border-radius: 25px;
-    padding:10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
- .bt2:hover{
-    background-color:#3485F9;
-    transform:scale(1.2);
-    }
- .form-label{
-        padding-bottom: 10px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          }
-.input{
-        padding: 7px;
-         width:200px;
-        }
-.last{
-    padding:0px;
-    margin: 0px;
-  }
-  hr{
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-  }      
+.bt1 {
+  background-color: white;
+  width: 220px;
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.bt1:hover {
+  transform: scale(1.1);
+}
+.bt2 {
+  background-color: #1b77fb;
+  width: 220px;
+  border-radius: 25px;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.bt2:hover {
+  background-color: #3485f9;
+  transform: scale(1.2);
+}
+.form-label {
+  padding-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.input {
+  padding: 7px;
+  width: 200px;
+}
+.last {
+  padding: 0px;
+  margin: 0px;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
