@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="styles.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | E-commerce product page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | E-commerce product page</title>
 
-  Collections
-  Men
-  Women
-  About
-  Contact
+    <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
+    
+  </head>
+  <body>
+    <nav class="container relative  p-6 drop bg-slate-50 drop-shadow-md max-w-7xl ">
+      <div class="mx-40 flex items-baseline space-x-11">
+        <a href="http://" class="font-custom text-2xl">sneakers</a>
+        <a href="http://" class="">Collections</a>
+        <a href="http://" class="">Men</a>
+        <a href="http://" class="">Women</a>
+        <a href="http://" class="">About</a>
+        <a href="http://" class="">Contact</a>
+        <div>
+          <img src="/3Week/images/icon-cart.svg" alt="" srcset="" class="ml-80">
+        </div>
+          <img src="/3Week/images/image-avatar.png" alt="" srcset="" class="w-9 pb-2 ml-6 absolute">
+        </div>
+      </div>
+    </nav>
 
-  Sneaker Company
+    <section id="hero" class="flex">
 
-  Fall Limited Edition Sneakers
+      <div id="image container" class="flex flex-wrap">
 
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
-
-  $125.00
-  50%
-  $250.00
-
-  0
-  Add to cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+     <a><img src="/3Week/images/image-product-1.jpg" border="0" class=" my-5 ml-44 max-w-lg cursor-zoom-in border-black rounded-3xl object-fill pb-0 hover:scale-110"></a>
+     
+     <div id="secondimagecontainer" class="mx-auto ml-48 grid grid-flow-col-dense gap-1 h-auto w- auto relative">
+      
+      <a><img src="/3Week/images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail" border="0" class="h-24 w-24 rounded-lg"></a>
+      <a><img src="/3Week/images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail" border="0" class="h-24 w-24 rounded-lg" ></a>
+      <a><img src="/3Week/images/image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail" border="0" class="h-24 w-24 rounded-lg" ></a>
+      <a><img src="/3Week/images/image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail" border="0" class="h-24 w-24 rounded-lg" ></a>
+    </div>
+ 
   </div>
-</body>
+     
+      <div class="container items-center px-6 py-20">
+        <h3 class="px my-4 text-orange-600">SNEAKER COMPANY</h3>
+        <h2 class="font-custom text-3xl">Fall Limited Edition</h2>
+        <h2 class="font-custom text-3xl">Sneakers</h2>
+
+        <p class="max-w-md py-6">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <div class="flex items-stretch space-x-5">
+          <span class="font-custom text-xl">$125.00 </span>
+          <button class="bg-orange-200 px-2 text-orange-700 text-xs w-9 h-6">50%</button>
+        </div>
+        <span class="text-base text-slate-400 line-through"> $250.00 </span>
+        <br />
+        <div class="flex space-x-10 py-5">
+          <button class="bg-slate-300 px-24 py-1">0</button>
+          <button class="bg-orange-600 px-24 py-1 text-white">Add to cart</button>
+        </div>
+      </div>
+    </section>
+     
+  </body>
 </html>
