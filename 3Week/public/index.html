@@ -25,7 +25,7 @@
         <div>
           <img src="/3Week/images/icon-cart.svg" alt="" srcset="" class="ml-80">
         </div>
-          <img src="/3Week/images/image-avatar.png" alt="" srcset="" class="w-9 pb-2 ml-6 absolute">
+          <img src="/3Week/images/image-avatar.png" alt="" srcset="" class="w-9 pb-2 ml-">
         </div>
       </div>
     </nav>
@@ -34,14 +34,14 @@
 
       <div id="image container" class="flex flex-wrap">
 
-     <a><img src="/3Week/images/image-product-1.jpg" border="0" class=" my-5 ml-44 max-w-lg cursor-zoom-in border-black rounded-3xl object-fill pb-0 hover:scale-110"></a>
+     <a><img id="IMG" src="/3Week/images/image-product-1.jpg" border="0" class=" my-5 ml-44 max-w-lg cursor-zoom-in border-black rounded-3xl object-fill pb-0 hover:scale-110"></a>
      
      <div id="secondimagecontainer" class="mx-auto ml-48 grid grid-flow-col-dense gap-1 h-auto w- auto relative">
       
-      <a><img src="/3Week/images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail" border="0" class="h-24 w-24 rounded-lg"></a>
-      <a><img src="/3Week/images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail" border="0" class="h-24 w-24 rounded-lg" ></a>
-      <a><img src="/3Week/images/image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail" border="0" class="h-24 w-24 rounded-lg" ></a>
-      <a><img src="/3Week/images/image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail" border="0" class="h-24 w-24 rounded-lg" ></a>
+      <a><img onclick="change1()"  src="/3Week/images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail" border="0" class="h-24 w-24 rounded-lg"></a>
+      <img onclick="change2()"   src="/3Week/images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail" border="0" class="h-24 w-24 rounded-lg" >
+      <a><img onclick="change3()" src="/3Week/images/image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail" border="0" class="h-24 w-24 rounded-lg" ></a>
+      <a><img onclick="change4()" src="/3Week/images/image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail" border="0" class="h-24 w-24 rounded-lg" ></a>
     </div>
  
   </div>
@@ -64,6 +64,24 @@
         </div>
       </div>
     </section>
-     
+    <script>
+      function change2()
+      {
+      document.getElementById("IMG").src="https://i.ibb.co/MRyJZHN/image-product-2.jpg";
+      }
+      function change1()
+      {
+        document.getElementById("IMG").src="/3Week/images/image-product-1.jpg";
+      }
+   function change3()
+    {
+      document.getElementById("IMG").src="/3Week/images/image-product-3.jpg";
+    }
+    
+    function change4(){
+      document.getElementById("IMG").src="/3Week/images/image-product-4.jpg"
+    }
+    </script>
+
   </body>
 </html>
