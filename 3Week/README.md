@@ -1,7 +1,9 @@
 # Sneaker landing page 
-live version can be found [here](https://dynamic-salmiakki-70f54e.netlify.app/)
+live version can be found [here](https://comfy-puffpuff-189a84.netlify.app/)
 
 ![Sneaker landing page design preview](/3Week/public/images/Sneaker%20Landing%20Page%20Preview.png)
+
+#### [sneaker landing page video preview](/3Week/public/images/sneaker%20landing%20page%20video%20preview.webm)
 
  ### Built with
 
@@ -19,10 +21,16 @@ Tailwind CSS is basically a utility-first CSS framework for rapidly building cus
 
 ### [Installation](https://tailwindcss.com/docs/installation)
 For seeing your designs and to get faster output you can install through CDN.
-To avoid any errors and for production it is must be installed thru Tailwind CLI way for better results.
+To avoid any errors and for production it  must be installed through Tailwind CLI way for better results.
 
 ### Process
-Created a Sneaker Landing page using HTML CSS and Tailwind CSS achieved following:
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Switch the large product image by clicking on the small thumbnail images.
+Created a Sneaker Landing page using HTML CSS and Tailwind CSS by following these steps:
+ 1. Created a navbar with help of nav tag which has nested <div> element  with help of Tailwind Utility Classes
+ 2. Created a section tag which has two div elements to contain left and right side content and aligned them with flex
+   and tailwind utility classes.
+ 3. Created a image containers for left side where you can switch the large product image by hovering on the small 
+    thumbnail images by using tailwind cSS and to change the image on hovering used basic javascript with DOM manipulation
+ 4. Created a container using tailwind utility classes for product description.
+
+
+
