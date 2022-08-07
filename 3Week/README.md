@@ -2,7 +2,7 @@
 live version can be found [here](https://dynamic-salmiakki-70f54e.netlify.app/)
 
 ![Sneaker landing page design preview](/3Week/public/images/Sneaker%20Landing%20Page%20Preview.png)
-![Sneaker Landing page Video preview]()
+![Sneaker Landing page Video preview](/3Week/public/images/sneaker%20landing%20page%20video%20preview.webm)
 
  ### Built with
 
@@ -10,7 +10,7 @@ live version can be found [here](https://dynamic-salmiakki-70f54e.netlify.app/)
 - CSS custom properties
 - Flexbox
 - CSS Grid
--TailwindCSS-
+-TailwindCSS
 -JavaScript
 
 ### What is TailwindCSS and how to install it?
@@ -24,6 +24,6 @@ To avoid any errors and for production it is must be installed thru Tailwind CLI
 
 ### Process
 Created a Sneaker Landing page using HTML CSS and Tailwind CSS achieved following:
--View the optimal layout for the site depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Switch the large product image by clicking on the small thumbnail images.
