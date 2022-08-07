@@ -3,7 +3,7 @@ live version can be found [here](https://dynamic-salmiakki-70f54e.netlify.app/)
 
 ![Sneaker landing page design preview](/3Week/public/images/Sneaker%20Landing%20Page%20Preview.png)
 
-#### [Sneaker Landing page Video preview](/3Week/public/images/sneaker%20landing%20page%20video%20preview.webm)
+#### [sneaker landing page video preview.webm](https://user-images.githubusercontent.com/110042476/183275747-afcdd973-6f1d-4baf-bc82-f2a56a9cbdc0.webm)
 
  ### Built with
 
