@@ -25,11 +25,11 @@ To avoid any errors and for production it  must be installed through Tailwind CL
 
 ### Process
 Created a Sneaker Landing page using HTML CSS and Tailwind CSS by following these steps:
- 1. Created a navbar with help of nav tag which has nested <div> element  with help of Tailwind Utility Classes
+ 1. Created a navbar with help of nav tag which has nested div element with help of Tailwind Utility Classes
  2. Created a section tag which has two div elements to contain left and right side content and aligned them with flex
    and tailwind utility classes.
  3. Created a image containers for left side where you can switch the large product image by hovering on the small 
-    thumbnail images by using tailwind cSS and to change the image on hovering used basic javascript with DOM manipulation
+    thumbnail images by using tailwind CSS and to change the image on hovering used basic javascript with DOM manipulation
  4. Created a container using tailwind utility classes for product description.
 
 
