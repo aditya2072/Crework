@@ -4,45 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <title>Sneaker Landing Page</title>
   </head>
   <body>
     <!-- Navbar using Tailwind CSS -->
-    <nav class="container relative  p-6 drop bg-slate-50 drop-shadow-md max-w-5xl">
+    <nav class="container relative mx-auto ml-40 p-6 drop bg-slate-50 drop-shadow-md w-full">
       <div class="mx-40 flex items-baseline space-x-11">
-        <a href="http://" class="font-custom text-2xl hover:scale-150">sneakers</a>
-        <a href="http://" class="hover:scale-110">Collections</a>
-        <a href="http://" class="hover:scale-110">Men</a>
-        <a href="http://" class="hover:scale-110">Women</a>
-        <a href="http://" class="hover:scale-110">About</a>
-        <a href="http://" class="hover:scale-110">Contact</a>
-        <div class=" flex items-center relative justify-end gap-4 ">
-        <a><img src="/3Week/images/icon-cart.svg" alt="" srcset="" class="ml-60"></a>
-        <a><img src="/3Week/images/image-avatar.png" alt="" srcset="" class="ml-70 w-10"></a>
-   </div>
+       <a class="font-custom text-2xl hover:scale-150">sneakers</a>
+        <a class="hover:scale-110">Collections</a>
+        <a class="hover:scale-110">Men</a>
+        <a class="hover:scale-110">Women</a>
+        <a class="hover:scale-110">About</a>
+        <a class="hover:scale-110">Contact</a>
+        <div class=" flex items-center relative justify-end gap-4 mr-60">
+        <a><img src="/3Week/public/images/icon-cart.svg" alt="" srcset="" class="ml-60 hover:scale-150 "></a>
+        <a><img src="/3Week/public/images/image-avatar.png" alt="" srcset="" class="w-10 h-10 rounded-full hover:scale-150 ring-2 hover:ring-orange-500"></a>
+        </div>
         </div>
       </div>
     </nav>
-
-     <!-- Hero section   -->
+     <!-- Hero section-->
     <section id="hero" class="flex place-content-center">
 
       <!-- Image Container 1 -->
       
-       <div id="image container" class="flex flex-wrap">
-         <a><img id="IMG" src="/3Week/images/image-product-1.jpg" border="0" class=" my-20 mb-1 ml-72 w-96 cursor-zoom-in rounded-3xl object-fill pb-0 hover:scale-110"></a>
+     <div id="image container" class="flex flex-wrap">
+      <a><img id="IMG" src="/3Week/public/images/image-product-1.jpg" border="0" class=" my-20 mb-1 ml-72 w-96 cursor-zoom-in rounded-3xl object-fill pb-0 hover:scale-110"></a>
      
       <!-- Image Container 2  -->
      <div id="Secondimagecontainer" class="mx-auto ml-72 grid grid-flow-col-dense gap-1 h-auto w- auto relative">
-      <a><img onmouseover="change1()"  src="/3Week/images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail" border="0" class="h-24 w-24 rounded-lg hover:scale-110"></a>
-      <img onmouseover="change2()"   src="/3Week/images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail" border="0" class="h-24 w-24 rounded-lg hover:scale-110" >
-      <a><img onmouseover="change3()" src="/3Week/images/image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail" border="0" class="h-24 w-24 rounded-lg hover:scale-110" ></a>
-      <a><img onmouseover="change4()" src="/3Week/images/image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail" border="0" class="h-24 w-24 rounded-lg hover:scale-110" ></a>
+      <a><img onmouseover="change1()"  src="/3Week/public/images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail" border="0" class="h-24 w-24 rounded-lg hover:scale-110"></a>
+      <img onmouseover="change2()"   src="/3Week/public/images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail" border="0" class="h-24 w-24 rounded-lg hover:scale-110" >
+      <a><img onmouseover="change3()" src="/3Week/public/images/image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail" border="0" class="h-24 w-24 rounded-lg hover:scale-110" ></a>
+      <a><img onmouseover="change4()" src="/3Week/public/images/image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail" border="0" class="h-24 w-24 rounded-lg hover:scale-110" ></a>
     </div>
   </div>
-     
-      <div class="container   my-20 ml-32">
+     <!--Hero Section-->
+      <div class="container my-20 ml-32">
         <h3 class="px my-4 text-orange-600">SNEAKER COMPANY</h3>
         <h2 class="font-custom text-3xl">Fall Limited Edition</h2>
         <h2 class="font-custom text-3xl">Sneakers</h2>
@@ -53,16 +51,12 @@
           <button class="bg-orange-200 px-2 text-orange-700 text-xs w-9 h-6">50%</button>
         </div>
         <span class="text-base text-slate-400 line-through"> $250.00 </span>
-        
-
-        <div class="flex space-x-10 py-5">
-            
-
+        <div class="flex space-x-10 py-5">    
           <button class="px-12 w-auto bg-gray-100 rounded-lg space-x-6 flex place-content-around">
-            <span class="w-4 mt-21  pt-3 "><img src="/3Week/images/icon-minus.svg">
+            <span class="w-4 mt-21  pt-3 "><img src="/3Week/public/images/icon-minus.svg">
           </span>
               <span>0</span>
-              <span class="mt-2"><img src="/3Week/images/icon-plus.svg"></span>
+              <span class="mt-2"><img src="/3Week/public/images/icon-plus.svg"></span>
             </button>
           <button class="bg-orange-600 px-16 py-1 text-white flex rounded-lg gap-3 justify-start">
             <span><img class="h-7" src="https://img.icons8.com/ios/50/000000/shopping-cart.png" alt="" srcset=""></span>
@@ -71,25 +65,23 @@
       </div>
     </section>
 
-    <!-- JS for image toggling on hover -->
+    <!-- JS for image changing on hover -->
     <script>
       function change2()
       {
-      document.getElementById("IMG").src="https://i.ibb.co/MRyJZHN/image-product-2.jpg";
+      document.getElementById("IMG").src="/3Week/public/images/image-product-2.jpg";
       }
       function change1()
       {
-        document.getElementById("IMG").src="/3Week/images/image-product-1.jpg";
+        document.getElementById("IMG").src="/3Week/public/images/image-product-1.jpg";
       }
-   function change3()
-    {
-      document.getElementById("IMG").src="/3Week/images/image-product-3.jpg";
-    }
-    
-    function change4(){
-      document.getElementById("IMG").src="/3Week/images/image-product-4.jpg"
+     function change3()
+     {
+      document.getElementById("IMG").src="/3Week/public/images/image-product-3.jpg";
+      }
+      function change4(){
+      document.getElementById("IMG").src="/3Week/public/images/image-product-4.jpg"
     }
     </script>
-
   </body>
 </html>
