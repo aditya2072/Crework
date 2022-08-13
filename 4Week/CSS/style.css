@@ -1,0 +1,78 @@
+h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .log {
+  }
+  a {
+    text-decoration: none;
+  }
+  .container {
+    width: 30%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .bt1 {
+    background-color: white;
+    width: 220px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .bt1:hover {
+    transform: scale(1.1);
+  }
+  
+  <<<<<<< HEAD
+  .bt2 {
+    background-color: #1b77fb;
+    width: 220px;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #1b77fb;
+  }
+  .bt2:hover {
+    background-color: #3485f9;
+    transform: scale(1.2);
+  }
+  .input-grid {
+    display: grid;
+  }
+  .form-label {
+    padding-bottom: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .input {
+    padding: 7px;
+    width: 200px;
+  }
+  
+  .last {
+    padding: 0px;
+    margin: 0px;
+  }
+  .google {
+    width: 15px;
+    height: auto;
+    padding-top: 0.5px;
+  }
+  .container1 {
+    display: flex;
+    align-items: center;
+  }
+    
+  .last{
+      padding:0px;
+      margin: 0px;
+    }
+    
+  .google{
+    width:15px;
+    height:auto; 
+    padding-top: .5px;
+
+  }
+  
