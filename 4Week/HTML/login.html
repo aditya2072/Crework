@@ -9,15 +9,14 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<link rel="stylesheet" href="/4Week/CSS/style2.css" />
+		<link rel="stylesheet" href="../CSS/style2.css" />
 		<title>Log in</title>
 	</head>
 	<body>
-		<form action="/">
-			<div class="log">
+		<form action="/" id="form">
+			<div class="container">
 				<h2>Log in</h2>
-				<button class="bt1">Log in with Google</button>
-				<div class="input-grid">
+				<div class="input-control">
 					<label for="email" class="form-label"
 						><strong>Email</strong>
 					</label>
@@ -28,6 +27,9 @@
 						class="input"
 						placeholder="example@gmail.com"
 					/>
+					<div class="error"></div>
+				</div>
+					<div class="input-control">
 					<label for="password" class="form-label"
 						><strong>Password</strong>
 					</label>
@@ -39,24 +41,31 @@
 						minlength="8"
 						class="input"
 					/>
-				</div>
+                  <div class="error"></div>
+				  </div>
+				  <div class="input-control">
+					<label for="confirm_password" class="form-label"
+					><strong> Confirm Password</strong>
+					</label>
+				<input
+					type="password"
+					name="confirm_password"
+					class="input"
+					id="confirm_password"
+					placeholder="*******"
+				/>
+				<div class="error"></div>
+				   </div>
 				<p>
 					<input type="checkbox" name="" id="" />Remember me
 				</p>
 				<br />
 				<button class="bt2">Log in</button>
 				<br />
-				<p>
-					<a href="https://www.google.com/"
-						>Forgot Password?</a
-					>
-				</p>
-				<hr />
-				<p class="last">Don't have an account?</p>
-				<p class="last">
-					<a href="https://www.google.co.in/">Sign up</a>
-				</p>
+		
 			</div>
 		</form>
+		<script src="../JS/script1.js"></script>
+
 	</body>
 </html>
