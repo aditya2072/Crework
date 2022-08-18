@@ -1,0 +1,30 @@
+.container {
+    background-color:whitesmoke;
+    display: grid;
+    width: 300px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:1em;
+    row-gap: 1em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 10px rgba(120, 126, 135, 0.8);
+    margin: auto;
+  }
+  
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .container5,
+  .container6,
+  .container7,
+  .container8,
+  .container9 {
+    background-color:darkgreen;
+    width: 100px;
+    height: 100px;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 10px rgba(120, 126, 135, 0.8);
+  }
+  
