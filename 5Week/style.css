@@ -1,4 +1,4 @@
-.container {
+.containermain{
     background-color:whitesmoke;
     display: grid;
     width: 300px;
@@ -11,15 +11,7 @@
     margin: auto;
   }
   
-  .container1,
-  .container2,
-  .container3,
-  .container4,
-  .container5,
-  .container6,
-  .container7,
-  .container8,
-  .container9 {
+  .container{
     background-color:darkgreen;
     width: 100px;
     height: 100px;
