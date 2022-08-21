@@ -7,11 +7,13 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./style.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet"> 
-		<title>Document</title>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+		<title>Random Color Palette Generator</title>
 	</head>
 	<body>
-        <h1 class="animate__flip">Random color palette generator</h1>
+        <h1 class=" animate__animated animate__flip" id="H">Random Color Palette Generator</h1>
 		<div class="containermain">
 			<div class="container">#000000</div>
 			<div class="container">#000000</div>
@@ -30,8 +32,8 @@
 			<div class="container">#000000</div>
             
 		</div>
-        <div class="btn1">
-        <button class="btn" onclick="generateColors()">colors</button>
+        <div class="btn">
+        <button class="btn1"  onclick="generateColors()" onmouseover="generateHeadColors()">Create</button>
         </div>
 		<script src="./script.js"></script>                                                        
 	</body>
