@@ -1,8 +1,5 @@
 const colors = document.querySelectorAll(".container");
 const hd=document.getElementById("H");
-
-
-
 function generateColors() {
   colors.forEach((color) => {
     let hexcode = "#" + Math.random().toString(16).substring(2, 8);
