@@ -6,7 +6,7 @@ const firebaseConfig = {
   projectId: "note-d09ec",
   storageBucket: "note-d09ec.appspot.com",
   messagingSenderId: "893443088068",
-  appId: "1:893443088068:web:77bf73af12e6fcb64ef391"
+  appId: "1:89344308808:web:77bf73af12e6fcb64ef391"
 };
 
 // Initialize Firebase
