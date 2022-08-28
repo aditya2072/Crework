@@ -4,6 +4,10 @@ let noteTitle = document.querySelector("#note_title");
 let noteContent = document.querySelector("#note_content");
 let notes = [];
 
+localStorage.setItem('title',noteTitle.value);
+localStorage.setItem('content',noteContent.value);
+
+
 noteTitle.addEventListener("click", () => {
   noteTitle.removeAttribute("readonly");
   noteContent.style.display = "block";
