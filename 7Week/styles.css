@@ -1,7 +1,23 @@
 
-#search_box{
+.input_container{
+    background:rgb(156, 193, 227,0.6);
+    border-radius: 0.5rem;
+    margin:auto;
+    width: 50%;
+    height: 20em;
+    padding: 0.8rem;
+    text-align: left;
+    
+}
 
+
+#search_box{
     background-color: whitesmoke;
-    width:50%
-    text-align:center;
+    min-width:30%;
+    border:none;
+    outline:none;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    
+
 }
