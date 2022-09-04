@@ -9,9 +9,60 @@
 </head>
 <body>
     <div class="input_container">
-    <input type="text" name="" id="search_box" placeholder="Type Your City">
+   
+<div class="s">
+    <form>
+    <input type="search" name="" id="search_box" placeholder="Type Your City" >
+    </form>
     </div>
+    <div id="temp">
+    <span id="temperature">
+    <span>25°C</span>
+        <img src="https://openweathermap.org/img/wn/04n@2x.png" width="100">
+    </span>
+    </div>
+    <div class="container">
+          <div class=" humidity">
+           <p>
+             Humidity
+            </p>
+            <img src="images/humidity.png" width="35" />
+            <p class="details">
+             <span id="humidity"></span> %
+            </p>   
+          </div>
+          
+          <div class="wind">
+            <p class="details">
+              Wind
+            </p>
+            <img src="images/wind.png" width="35" />
+            <p class="details">
+              <span id="wind"></span> km/h
+            </p>
+          </div>
+          <div class="pressure">
+            <p class="details">
+             Pressure
+            </p>
+            <img src="images/barometer.png" width="35" />
+            
+            <p class="details">
+              <span id="pressure"></span> hPa 
+            </p>      
+          </div>
+          <div>
+            <p>
+              Feels Like
+            </p>
+            <img src="images/t-shirt.png" width="35"  />
+            <p class="details">
+              <span id="feels-like"></span>°C
+            </p>  
+        </div>
+      </div>
 
-    <script src="./script.js"></script>
+    <script  src="./script.js"></script>
+
 </body>
-</html>
+</html> 
