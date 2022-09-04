@@ -1,7 +1,8 @@
 
 
 body{
-background-color: rgb(122, 176, 254);
+  background-color:  rgba(89, 26, 106, 0.95);
+
 
 }
 
@@ -11,16 +12,17 @@ background-color: rgb(122, 176, 254);
     margin-top: 4rem;
     place-items: center;
     gap: 1rem;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(238, 37, 150, 0.93);
+    border-radius: 12px;
 
 }
 .input_container{
-    border-radius: 0.5rem;
     margin:auto;
     width: 30%;
-    height: 25em;
+    height: 27em;
     padding: 0.8rem;
     backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125)
@@ -37,14 +39,24 @@ background-color: rgb(122, 176, 254);
     
 }
 
-.temp{
+#temp{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin:1em;
+    font-size: 1rem;
+    color: black;
+    font-family: cursive;
+    row-gap: 1em;
 
 }
 
-
+.icon{
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(238, 37, 150, 0.93);
+    border-radius: 16px;    
+}
 
 
 @media all and (max-width:600px){
@@ -53,7 +65,7 @@ background-color: rgb(122, 176, 254);
         border-radius: 0.5rem;
         margin:auto;
         width: 50%;
-        height: 30em;
+        height: 35em;
         padding: 0.8rem;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -69,7 +81,17 @@ background-color: rgb(122, 176, 254);
             gap: 0.5rem;
         
         }
-
+        #temp{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+            margin:1em;
+            font-size: 1rem;
+            color: black;
+            font-family: cursive;
+        
+        }
 
 }
 
