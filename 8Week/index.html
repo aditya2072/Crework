@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+class calc {
+    constructor (a,b,c){
+   this.a=parseFloat(prompt("enter first no."));
+   this.b=parseFloat(prompt("enter second no."));
+   this.c=prompt("enter add/sub/mul/div");
+    
+   if (this.c=="add"){
+      this.addition()
+     }
+   if (this.c=="sub"){
+      this.subtraction()
+     }
+   if (this.c=="mul"){
+    this.multiplication()
+    }
+   
+   if (this.c=="div"){
+      this.division()
+     }
+   
+ }
+    
+    addition(){
+     console.log(this.a + this.b)
+    }
+    subtraction(){
+     console.log(this.a-this.b)
+    }
+     
+    multiplication(){
+     console.log(this.a*this.b)
+    }
+     
+    division(){
+     console.log(this.a/this.b)
+    }
+     
+}
+   
+   
+   const cal=new calc();
+
+
+
+</script>
+    
+
+
+</body>
+</html>
